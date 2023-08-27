@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../../FormularioWeb2"
+		},
+		{
+			"path": "../../../Semana13"
+		},
+		{
+			"path": "../../../Actividad15"
+		},
+		{
+			"path": "../../../Actividad14"
+		},
+		{
+			"path": "../../../Formulario_2"
+		},
+		{
+			"path": "../../../PAG_RESTAURANT"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PROYECTO_RUIZ"
+	}
+}

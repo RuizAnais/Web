@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-image: linear-gradient( 
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),
+        url(/ProyectoWeb/img/mejores-gifs-de-viaje-pasaporte.gif);
+    background-position: center;
+    background-size: cover;
+    align-items:center;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 30px;
+}
+.txt1{
+    margin: 10px;
+     
+}
+#te1, #te2{
+    width: 80%;
+    margin: 10px auto;
+    text-align: justify;
+    font-size: 18px;
+}
+
+#t1{
+    font-size: 20px;
+    width: 50px;
+    margin: 20px auto;
+} 
+#t2{
+    font-size: 13px;
+    width: 80%;
+    margin: 20px auto;
+}
+h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.articulos {
+    display:flex;
+    align-items: center;
+    padding: 40px;
+
+}
+.articulos ul li{
+    margin: 0 12%;
+    font-size: 17px;
+
+}
+#img1{
+    margin: 0 auto;
+}
+#imag{
+    float: right;
+    margin-left: 20px;
+    width: 40%;
+}
+#imag2{
+    float: left;
+    margin-right: 20px;
+    width: 40%;
+}
+
+.menu-secundario {
+    width: 20%;
+    text-align: center;
+}
+
+.menu-secundario #t{
+    text-align: center;
+    background-color: #7689c7;
+    color: white;
+    padding: 5px 0;
+    margin-top: 60px;
+}
+
+.menu-secundario a {
+    display: block;
+    color: black;
+    margin: 30px auto;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(196, 192, 192);
+    width: 200px;
+    text-align: justify;
+    
+}
+.menu-secundario a:hover{
+    color:#ce967b;
+    text-decoration:underline
+}
+.menu-secundario #t1{
+    text-decoration: none;
+}
+
+.centrales {
+    width: 75%;
+}
+
+nav ul {
+    background-color: #7689c7;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 45px;
+    width: 150px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: #ce967b;
+}
+#video{
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#imgv{
+    margin-top: 40px;
+    height: 250px;
+    border-radius: 50%;
+}
+#pclima{
+    width: 40%;
+    margin: 20px ;
+    margin-right: 0;
+    float: right;
+}
+#pcomida{
+    width: 100%;
+    margin: 10px 0;
+    float:inherit
+}
+#pm{
+    width: 40%;
+    margin: 20px;
+    float:left;
+    margin-left: 0;
+}
+.contenido {
+    display: flex;
+    margin: 60px;
+}
+#ini{
+    background-image: linear-gradient( 
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),url(/ProyectoWeb/img/peruind.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 71%;
+    margin: 0 auto;
+}
+#cini{
+    background-image: linear-gradient( 
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),url(/ProyectoWeb/img/cmural.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 71%;
+    margin: 0 auto;
+}
+#mini{
+    background-image: linear-gradient( 
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),url(/ProyectoWeb/img/marruecossin.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 71%;
+    margin: 0 auto;
+}
+#jini{
+    background-image: linear-gradient( 
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),url(/ProyectoWeb/img/muralj.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 71%;
+    margin: 0 auto;
+}
+#iini{
+    background-image: linear-gradient( 
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),url(/ProyectoWeb/img/murali.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 71%;
+    margin: 0 auto;
+}
+#fini{
+    background-image: linear-gradient( 
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)),url(/ProyectoWeb/img/muralf.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 71%;
+    margin: 0 auto;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px auto;
+    width: 35%;
+    padding: 1%;
+    margin-top: 30px;
+}
+table a{
+    text-decoration: none;
+}
+#empezar{
+    margin-top: 100px;
+}
+.indice{
+    background-color: #b8c5f0;
+    margin: 10px auto;
+    height: 230px;
+    width: 250px;
+    text-align: justify;
+    padding: 30px;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+.indice p{
+    margin: 20px;
+    font-size: 20px;
+    
+}
+.indice a{
+    text-decoration: none;
+    color: white;
+}
+.indice li{
+    list-style-type: none;
+}
+
+#te2 a{ 
+    text-decoration: none;
+    color: blue;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: #7689c7;
+}
+.redes{
+    padding: 5px;
+    font-size: 12px;
+    padding: 10px;
+    text-align:center;
+    padding-top: 30px;
+    height: 30px;
+    width: 610px;
+    margin: 0 auto;
+}
+
+.redes li {
+    width: 150px; 
+    list-style-type: none;
+    display: inline-block;
+}
+.redes li img:hover{
+        opacity: .2;
+        border-radius: 20%;
+      }
+
+.redes img{
+    width: 30px;
+}
+#pie2{
+    text-align: center;
+    padding-top: 10px;
+}
